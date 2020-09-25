@@ -92,12 +92,7 @@ const TrendingPosts = () => {
                     <h2>
                       <a href="./Single">Watch the video and sing along!</a>
                     </h2>
-                    <ul className="post-tags">
-                      <li>
-                        by <a href="#">Stan Enemy</a>
-                      </li>
-                      <li>2 weeks ago</li>
-                    </ul>
+                   
 
                     
                   </div>

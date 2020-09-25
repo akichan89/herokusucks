@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
-import { Container, Col, Row, Jumbotron, Form, Button } from 'react-bootstrap';
+
 
 
 import './form.scss';
@@ -83,14 +83,14 @@ export class PizzaApp extends React.Component {
  topping,
  instructions,
  dDew,
- date
+
  } = this.setState;
  alert(
   
   `
   Your order has been submitted!
 
- Appointment to pickup your Dragon Pal is set for ${ date }
+ Appointment to pickup your Dragon Pal is set for 
  Please arrive with your Jewel of Valencia to pay for your Dragon Pal and Items. 
  No Other Payment Options Available!
  
@@ -105,7 +105,7 @@ export class PizzaApp extends React.Component {
  instructions,
  topping,
  dDew,
- date
+
  } = this.setState;
  return (
 
@@ -207,12 +207,6 @@ export class PizzaApp extends React.Component {
  <br />
 
 <div>
-  <Form>
- <Form.Group>
- <Form.Label>Schedule Appointment</Form.Label>
- <Form.Control type="date" value={date} onChange={this.setDate} />
-</Form.Group>
-</Form>
 
 </div>  
 

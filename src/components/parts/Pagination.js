@@ -5,15 +5,15 @@ const Pagination = () => {
     <div className="pagination-box">
       <ul className="pagination-list">
         <li>
-          <a href="#" className="active">
+          <a href="/FAQ" className="active">
             1
           </a>
         </li>
         <li>
-          <a href="#">2</a>
+          <a href="FAQ">2</a>
         </li>
         <li>
-          <a href="#">
+          <a href="FAQ">
             Next Page <i className="fa fa-angle-right"></i>
           </a>
         </li>
