@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../parts/Header";
-import PostDesc from "../parts/PostDesc";
-import Comment from "../parts/Comment";
+
 import Footer from "../parts/Footer";
 import AboutNavbar from "../screens/aboutHeader";
 
@@ -23,45 +22,21 @@ const Posts3 = () => {
 
           <div className="post-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula <a href="#">sollicitudin laoreet viverra</a>, tortor libero
-              sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut
-              justo. Suspendisse potenti.
+            Keeping your Dragon Pal Happy, Healthy and Alive
+
+
+What does your Dragon Pal need to be Happy? Well, first off, we provide everything you need to get started in your started pack! You should be able to select this when placing your order. There are three very important things when caring for your Dragon Pal:
+Correct Lighting - you need to make sure you have a basking light and a UV light. The basking light gives the Dragon a warm place to sit and soak up heat. The UV light gives it the nutrients it would normally get from the sun.
+Temp! Dragon Pals like it WARM! You should setup their habitat with a "cool" side, siting around 75-80 degrees. Then, set up a "hot" side, with the temp sitting around 90-95.
+Vitamins and Calcium!! Dragon Pals need these supplemented into their food, since they don't hunt or live outside in their younger years, we need to provide them with as much supplementation to ensure they grow healthy and strong!!
+
+I hope this helps!!
             </p>
-            <p>
-              Sed egestas, ante et vulputate volutpat, eros pede semper est,
-              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-              adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent{" "}
-              <a href="#">elementum hendrerit </a> tortor. Sed semper lorem at
-              felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-              euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede
-              arcu, dapibus eu, fermentum et, dapibus sed, urna.
-            </p>
+            
             <blockquote>
-              “ Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
-              euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras
-              consequat. ”
+              “I super believe in you, Tad Cooper”
             </blockquote>
-            <p>
-              Praesent elementum hendrerit tortor. Sed semper lorem at felis.
-              Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod
-              dui, eu <a href="#">pulvinar nunc sapien</a> ornare nisl.
-              Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
-            </p>
-            <h3>Nulla vitae mauris non felis mollis faucibus.</h3>
-            <p>
-              Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia,
-              magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae
-              facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis,{" "}
-              <a href="#">adipiscing varius </a>, adipiscing in, lacinia vel,
-              tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-              Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.
-              Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
-            </p>
-           
-        
+          
         
         
               </div>

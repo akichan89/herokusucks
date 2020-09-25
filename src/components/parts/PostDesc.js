@@ -16,14 +16,21 @@ const PostDesc = () => {
 
           <div className="post-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula sollicitudin laoreet viverra, tortor libero
-              sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut
-              justo. Suspendisse potenti.
+              Are you wondering what Dragon Pals are? Well, you have come to the right place! 
+              Dragon Pals are baby dragons. They are often mistaken as bearded dragons, a lizard native to 
+              the Australian Outback. But King Richard stumbled on the secret of Dragon Pals!
             </p>
             <p>
+              He learned that some of these lizards are actually baby dragons! If cared for properly, they grow into fully functioning, fire-breathing, 
+              winged-creatures of death! But also loyal and loving to it's keeper. King Richard did many wonderful and amazing things with his Dragon Pal, 
+              Tad Cooper, and for just one priceless Jewel of Valencia, you can have your very own Dragon Pal!
+             <br/>
+             How does this work? Simply navigate to the Shop, select your Dragon Pal and any other accessories, 
+             then submit your Order Request Form. We will reach out to you, via email, to arrange pickup or personal delivery of your new Dragon Pal
+             and accessories!
+             <br />
+             You will pay for your Dragon Pal, with the Jewel of Valencia, at time of receipt.
+             <br />
               Sed egestas, ante et vulputate volutpat, eros pede semper est,
               vitae luctus metus libero eu augue. Morbi purus libero, faucibus
               adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent

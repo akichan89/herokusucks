@@ -24,44 +24,12 @@ const Posts1 = () => {
 
           <div className="post-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula <a href="#">sollicitudin laoreet viverra</a>, tortor libero
-              sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut
-              justo. Suspendisse potenti.
-            </p>
-            <p>
-              Sed egestas, ante et vulputate volutpat, eros pede semper est,
-              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-              adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent{" "}
-              <a href="#">elementum hendrerit </a> tortor. Sed semper lorem at
-              felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-              euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede
-              arcu, dapibus eu, fermentum et, dapibus sed, urna.
+            Where did the original Dragon Pal come from? Well, that is a great question! A long, long time ago, in a distant land, King Richard had lost everything. He lost his wife, his kingdom, respect and even most of his friends. He was considered an idiot and buffoon who couldn't do anything right. Until one day, he traded the most valuable item in the seven kingdoms - the Jewel of Valencia - for the first Dragon Pal: Tad Cooper. Tad Cooper looked like any standard lizard, but King Richard knew he had something special on his hands. He knew, that if he super believed in Tad Cooper, one day that little dragon would grow into a huge beast, assisting Richard in re-claiming all that was lost! He know, Tad Cooper would make the laughing stop, and Tad Cooper did. Tad Cooper changed King Richard's life, helped get his kingdom back, helped him find a better wife, and even defeat the evilest of D-Dew wielders! (Dark-Dark Evil Way). We have dedicated out lives to paying tribute to the noble Tad Cooper and want all who super believe, to have access to their own Dragon Pal. 
             </p>
             <blockquote>
-              “ Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
-              euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras
-              consequat. ”
+              “ I super believe in you, Tad Cooper... ”
             </blockquote>
-            <p>
-              Praesent elementum hendrerit tortor. Sed semper lorem at felis.
-              Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod
-              dui, eu <a href="#">pulvinar nunc sapien</a> ornare nisl.
-              Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
-            </p>
-            <h3>Nulla vitae mauris non felis mollis faucibus.</h3>
-            <p>
-              Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia,
-              magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae
-              facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis,{" "}
-              <a href="#">adipiscing varius </a>, adipiscing in, lacinia vel,
-              tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-              Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.
-              Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
-            </p>
-           
+          
         
         
         
