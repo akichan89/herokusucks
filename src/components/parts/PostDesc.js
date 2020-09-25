@@ -6,7 +6,13 @@ const PostDesc = () => {
     <div>
       <div className="title-single-post">
         <a className="text-link" href="#" />
-        <Iframe width="560" height="315" src="https://www.youtube.com/embed/4iCzOllSjLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
+        <Iframe url="https://www.youtube.com/embed/4iCzOllSjLU" width="450px"
+        height="450px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"
+        />
 
           <div className="post-content-text">
             <p>
