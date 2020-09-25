@@ -10,8 +10,8 @@ const Footer = () => {
         </p>
         <ul className="social-list">
           <li>
-            <a href="#">
-              <i className="fa fa-twitter"></i>
+            <a href='https://master.d25xc1hcae2nc9.amplifyapp.com'>
+            <i class="fas fa-blog"></i>
             </a>
           </li>
           <li>

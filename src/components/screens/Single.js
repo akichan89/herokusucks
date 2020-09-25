@@ -6,14 +6,16 @@ import Footer from "../parts/Footer";
 
 const Single = () => {
   return (
-    <>
+    <div>
       <Header />
       <div className="single-post no-sidebar">
+      
+            
         <PostDesc />
-        <Comment />
+       
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

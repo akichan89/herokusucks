@@ -16,10 +16,7 @@ const post = mongoose.Schema(
       required: true,
     },
    
-    category: {
-      type: ObjectId,
-      ref: "Category",
-    },
+  
   },
 
 );

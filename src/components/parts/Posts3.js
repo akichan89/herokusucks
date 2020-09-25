@@ -1,11 +1,25 @@
 import React from "react";
+import Header from "../parts/Header";
+import PostDesc from "../parts/PostDesc";
+import Comment from "../parts/Comment";
+import Footer from "../parts/Footer";
+import AboutNavbar from "../screens/aboutHeader";
 
-const PostDesc = () => {
+const Posts3 = () => {
   return (
     <div>
+        <Header />
+      <AboutNavbar />
+      <div className="single-post no-sidebar">
+      
+    <div>
       <div className="title-single-post">
-        <a className="text-link" href="#" />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4iCzOllSjLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2>Dragon Pal Basic Care</h2>
+      <h3>Keeping your Dragon Pal Happy, Healthy and Alive</h3>
+        
+        <div className="image-holder">
+                  <img src="upload/blog/tadcooper11.jpg" alt="" />
+                </div>
 
           <div className="post-content-text">
             <p>
@@ -54,8 +68,16 @@ const PostDesc = () => {
             </div>
           </div>
        
-    
+       
+      </div>
+      <h3>To read more about Dragon Pals, please go to our Dragon Pal blog  <a href='https://master.d25xc1hcae2nc9.amplifyapp.com'>
+            <i class="fas fa-blog"></i>
+            </a></h3>
+
+    <Footer />
+     
+    </div>
   );
 };
 
-export default PostDesc;
+export default Posts3;

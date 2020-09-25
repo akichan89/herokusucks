@@ -1,6 +1,6 @@
 import React from "react";
 
-const PostItem = (props) => {
+const PostItem1 = (props) => {
   return (
     <div className="news-post article-post2">
       <div className="row">
@@ -10,11 +10,11 @@ const PostItem = (props) => {
           </div>
         </div>
         <div className="col-md-6">
-          <a className="text-link" href="./Posts1">
+          <a className="text-link" href="#">
             {props.post.category.categoryName}
           </a>
           <h2>
-            <a href="./Posts1">{props.post.title}</a>
+            <a href="single-post.html">{props.post.title}</a>
           </h2>
           
           <p>{props.post.description}</p>
@@ -24,4 +24,4 @@ const PostItem = (props) => {
   );
 };
 
-export default PostItem;
+export default PostItem1;

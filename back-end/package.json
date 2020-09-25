@@ -9,6 +9,7 @@
   "author": "Autumn Shakespeare <autumn.e.gehring@gmail.com> (https://www.npmjs.com/~shakespeare89)",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.6"
   }

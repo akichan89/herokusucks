@@ -5,6 +5,7 @@ import Posts from "../parts/Posts";
 import Sidebar from "../parts/Sidebar";
 import Footer from "../parts/Footer";
 import App  from "./storeApp";
+import './shop.scss';
 
 const Shop = () => {
   return (
@@ -19,6 +20,10 @@ const Shop = () => {
           </div>
         </div>
       </section>
+
+      <div className="order-form-button">
+      <a href="./pizzaForm" class="button">Continue to Dragon Pals Order Form</a>
+      </div>
 
       <Footer />
     </>

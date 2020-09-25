@@ -1,33 +1,33 @@
 let items = [
     {
     id: 0,
-    name: "Apple iPad Mini 2 16GB",
-    description: "An iPad like no other. 16GB, WiFi, 4G.",
-    price: 229.00
+    name: "You Dragon Pal",
+    description: "A Dragon Pal over your very own. You will be able to grow it from a tiny baby to a large, fire breathing, puppy dog",
+    
     },
     {
     id: 1,
-    name: "Apple iPad Mini 2 32GB",
-    description: "Even larger than the 16GB.",
-    price: 279.00
+    name: "Dragon Pal Starter Set",
+    description: "A kit that includes a tank, lighting, heating, toys and everything else you could need to get started with your new Pal",
+    
     },
     {
     id: 2,
-    name: "Canon T7i",
-    description: "DSLR camera with lots of megapixels.",
-    price: 749.99
+    name: "Dragon Pal Pouch",
+    description: "A special heated pouch that you can wear and take your Dragon Pal with you, while keeping it safe and secure",
+    
     },
     {
     id: 3,
-    name: "Apple Watch Sport",
-    description: "A watch",
-    price: 249.99
+    name: "Dragon Pal Leash, with Wings",
+    description: "As a baby, your Dragon Pal won't have wings. While waiting to fully develop, give your Dragon Pal walks with these adorable wings. This way, your Dragon Pal will feel like a fierce dragon!",
+  
     },
     {
     id: 4,
-    name: "Apple Watch Silver",
-    description: "A more expensive watch",
-    price: 599.99
+    name: "Customized Super Believe in You Shirt",
+    description: "A shirt with your Dragon Pal's name, added to the I Super Believe in You tag",
+    
     }
    ];
    export {items};

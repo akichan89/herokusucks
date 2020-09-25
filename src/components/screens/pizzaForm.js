@@ -1,14 +1,17 @@
 import React from 'react';
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
-import Slider from "../parts/Slider";
+import { Container, Col, Row, Jumbotron, Form, Button } from 'react-bootstrap';
+import swal from 'sweetalert';
 
+
+import './form.scss';
 
 const Home = () => {
    return (
      <>
        <Header />
-       <Slider />
+    
       <PizzaApp />
        <Footer />
      </>
@@ -24,16 +27,17 @@ export class PizzaApp extends React.Component {
       state = {
       size: 'medium',
       glutenFree: false,
+      dDew: false,
       topping: '',
       instructions: '',
       pizzaName: null,
       email: null,
-      password: null,
+      date: '',
       
       errors: {
       pizzaName: '',
       email: '',
-      password: '',
+     
       }
       };
  setSize = event => {
@@ -46,6 +50,11 @@ export class PizzaApp extends React.Component {
  glutenFree: event.target.value
  });
  };
+ setdDew = event => {
+  this.setState({
+  dDew: event.target.value
+  });
+  };
  setInstructions = event => {
  this.setState({
  instructions: event.target.value
@@ -55,30 +64,49 @@ export class PizzaApp extends React.Component {
  this.setState({
  topping: event.target.value
  });
+}
 
 
- };
+ setDate = event => {
+  this.setState({
+  date: event.target.value
+  });
+  }
+ 
+   
+
+
  handleSubmit = event => {
  event.preventDefault();
  const {
  size,
  glutenFree,
  topping,
- instructions
+ instructions,
+ dDew,
+ date
  } = this.setState;
- alert(`Your order:
- Size: ${ size}
- Gluten free ? ${glutenFree ? 'yes' : 'no'}
- Topping: ${topping || 'none'}
- Special instructions: ${instructions || 'none'}
+ alert(
+  
+  `
+  Your order has been submitted!
+
+ Appointment to pickup your Dragon Pal is set for ${ date }
+ Please arrive with your Jewel of Valencia to pay for your Dragon Pal and Items. 
+ No Other Payment Options Available!
+ 
+
 `);
  };
+
  render() {
  const {
  size,
  glutenFree,
  instructions,
- topping
+ topping,
+ dDew,
+ date
  } = this.setState;
  return (
 
@@ -100,14 +128,19 @@ export class PizzaApp extends React.Component {
  onChange={this.handleChange}
  />
  </div>
- <div className="password">
- <label>Password</label>
- <input type="password"
- name="password"
- onChange={this.handleChange}
- />
+ <div className="dDew">
+ <label>
+ <input type="checkbox"
+ checked={dDew}
+ onChange={this.dDew} />
+ Do you want extra special D-Dew defense added?
+ </label>
+
+ <p>What size would you like your Dragon Pal?</p>
+
  </div>
  <label>
+   
  <input
  type="radio"
  value="small"
@@ -141,7 +174,7 @@ export class PizzaApp extends React.Component {
  Morph Colors
  <br />
  <select onChange={this.setTopping} value={topping}>
- <option value="">- Pick a Dragon Pal's Color -</option>
+ <option value="">- Pick Your Dragon Pal's Color -</option>
  <option value="pepperoni">Standard</option>
  <option value="peppers+onions">Red
 </option>
@@ -157,7 +190,7 @@ export class PizzaApp extends React.Component {
  <input type="checkbox"
  checked={glutenFree}
  onChange={this.setGlutenFree} />
- Check Box to Confirm you Super Believe in your Dragon Pal
+ Do you Super Believe in your Dragon Pal?
  </label>
  <br />
  <br />
@@ -173,9 +206,16 @@ export class PizzaApp extends React.Component {
  </div>
  
  <br />
- 
 
- 
+<div>
+  <Form>
+ <Form.Group>
+ <Form.Label>Schedule Appointment</Form.Label>
+ <Form.Control type="date" value={date} onChange={this.setDate} />
+</Form.Group>
+</Form>
+
+</div>  
 
  <br />
  <button type="submit"> Complete Order Request </button>
@@ -183,5 +223,5 @@ export class PizzaApp extends React.Component {
  </div>
  </div>
  );
- }
+ };
 }
