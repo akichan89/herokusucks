@@ -24,7 +24,7 @@ const Home = () => {
 
 export class PizzaApp extends React.Component {
       state = {
-      size: 'medium',
+      
       glutenFree: false,
       dDew: false,
       topping: '',
@@ -39,11 +39,7 @@ export class PizzaApp extends React.Component {
      
       }
       };
- setSize = event => {
- this.setState({
- size: event.target.value
- });
- };
+ 
  setGlutenFree = event => {
  this.setState({
  glutenFree: event.target.value
@@ -78,7 +74,6 @@ export class PizzaApp extends React.Component {
  handleSubmit = event => {
  event.preventDefault();
  const {
- size,
  glutenFree,
  topping,
  instructions,
@@ -90,7 +85,7 @@ export class PizzaApp extends React.Component {
   `
   Your order has been submitted!
 
- Appointment to pickup your Dragon Pal is set for 
+ We will email you to schedule an Appointment to pickup your Dragon Pal.
  Please arrive with your Jewel of Valencia to pay for your Dragon Pal and Items. 
  No Other Payment Options Available!
  
@@ -100,7 +95,7 @@ export class PizzaApp extends React.Component {
 
  render() {
  const {
- size,
+
  glutenFree,
  instructions,
  topping,
@@ -109,7 +104,7 @@ export class PizzaApp extends React.Component {
  } = this.setState;
  return (
 
-    <div className="wrapper">
+  <div className="wrapper">
  <div className="form-wrapper">
  <h1>Order Your Dragon Pal</h1>
  <form onSubmit={this.handleSubmit}>
@@ -135,39 +130,6 @@ export class PizzaApp extends React.Component {
  Do you want extra special D-Dew defense added?
  </label>
 
- <p>What size would you like your Dragon Pal?</p>
-
- </div>
- <label>
-   
- <input
- type="radio"
- value="small"
- checked={size === 'small'}
- onChange={this.setSize}
- />
- Small
- </label>
- <label>
- <input
- type="radio"
- value="medium"
- checked={size === 'medium'}
- onChange={this.setSize}
- />
- Medium
- </label>
- <label>
- <input
- type="radio"
- value="large"
- checked={size === 'large'}
- onChange={this.setSize}
- />
- Large
- </label>
- <br />
- <br />
  <div className="topping">
  <label>
  Morph Colors
@@ -209,12 +171,15 @@ export class PizzaApp extends React.Component {
 <div>
 
 </div>  
+</div>
 
  <br />
  <button type="submit"> Complete Order Request </button>
  </form>
+ 
  </div>
  </div>
+ 
  );
  };
 }
