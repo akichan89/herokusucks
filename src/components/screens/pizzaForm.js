@@ -2,7 +2,6 @@ import React from 'react';
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
 import { Container, Col, Row, Jumbotron, Form, Button } from 'react-bootstrap';
-import swal from 'sweetalert';
 
 
 import './form.scss';
